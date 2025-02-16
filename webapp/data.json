@@ -1,0 +1,1929 @@
+{
+  "produtos": [
+    {
+      "id": "P10001",
+      "nome": "Cadeira Ergonômica",
+      "descricao": "Cadeira ergonômica ajustável com apoio lombar.",
+      "categoria": "Mobiliário",
+      "preco": 299.99,
+      "estoque": 150,
+      "dimensoes": {
+        "largura": 60,
+        "altura": 90,
+        "profundidade": 60
+      },
+      "peso": 12.5,
+      "fornecedor": {
+        "nome": "Móveis Conforto Ltda.",
+        "contato": {
+          "telefone": "+55 11 98765-4321",
+          "email": "contato@móveisconforto.com"
+        },
+        "endereco": {
+          "logradouro": "Rua das Flores, 123",
+          "bairro": "Centro",
+          "cidade": "São Paulo",
+          "estado": "SP",
+          "cep": "01000-000"
+        }
+      },
+      "localizacao": {
+        "armazem": "A1",
+        "prateleira": "P2",
+        "posição": "B3"
+      },
+      "dataDeEntrada": "2025-01-10T00:00:00Z",
+      "dataDeValidade": "2027-01-10T00:00:00Z"
+    },
+    {
+      "id": "P10002",
+      "nome": "Cadeira de Escritório",
+      "descricao": "Cadeira confortável para longas jornadas de trabalho.",
+      "categoria": "Mobiliário",
+      "preco": 450.0,
+      "estoque": 100,
+      "dimensoes": {
+        "largura": 65,
+        "altura": 95,
+        "profundidade": 65
+      },
+      "peso": 14.0,
+      "fornecedor": {
+        "nome": "Mobilier Ltda.",
+        "contato": {
+          "telefone": "+55 11 99999-8888",
+          "email": "vendas@mobilier.com"
+        },
+        "endereco": {
+          "logradouro": "Avenida Paulista, 1500",
+          "bairro": "Bela Vista",
+          "cidade": "São Paulo",
+          "estado": "SP",
+          "cep": "01310-200"
+        }
+      },
+      "localizacao": {
+        "armazem": "B2",
+        "prateleira": "P1",
+        "posição": "A1"
+      },
+      "dataDeEntrada": "2025-02-01T00:00:00Z",
+      "dataDeValidade": "2028-02-01T00:00:00Z"
+    },
+    {
+      "id": "P10003",
+      "nome": "Mesa de Reunião",
+      "descricao": "Mesa de reuniões para 8 pessoas com design moderno.",
+      "categoria": "Mobiliário",
+      "preco": 1200.0,
+      "estoque": 45,
+      "dimensoes": {
+        "largura": 180,
+        "altura": 75,
+        "profundidade": 90
+      },
+      "peso": 35.0,
+      "fornecedor": {
+        "nome": "Móveis & Design",
+        "contato": {
+          "telefone": "+55 21 3456-7890",
+          "email": "contato@moveisdesign.com"
+        },
+        "endereco": {
+          "logradouro": "Rua Rio Branco, 456",
+          "bairro": "Centro",
+          "cidade": "Rio de Janeiro",
+          "estado": "RJ",
+          "cep": "20090-123"
+        }
+      },
+      "localizacao": {
+        "armazem": "C3",
+        "prateleira": "P3",
+        "posição": "B2"
+      },
+      "dataDeEntrada": "2025-03-05T00:00:00Z",
+      "dataDeValidade": "2030-03-05T00:00:00Z"
+    },
+    {
+      "id": "P10004",
+      "nome": "Computador All-in-One",
+      "descricao": "Computador com tela de 23 polegadas e processador i7.",
+      "categoria": "Eletrônicos",
+      "preco": 3500.0,
+      "estoque": 60,
+      "dimensoes": {
+        "largura": 50,
+        "altura": 40,
+        "profundidade": 20
+      },
+      "peso": 8.5,
+      "fornecedor": {
+        "nome": "TechStore",
+        "contato": {
+          "telefone": "+55 11 1234-5678",
+          "email": "suporte@techstore.com"
+        },
+        "endereco": {
+          "logradouro": "Avenida do Rio, 890",
+          "bairro": "Vila Progresso",
+          "cidade": "São Paulo",
+          "estado": "SP",
+          "cep": "01330-000"
+        }
+      },
+      "localizacao": {
+        "armazem": "D4",
+        "prateleira": "P5",
+        "posição": "C1"
+      },
+      "dataDeEntrada": "2025-01-15T00:00:00Z",
+      "dataDeValidade": "2027-01-15T00:00:00Z"
+    },
+    {
+      "id": "P10005",
+      "nome": "Monitor 27\"",
+      "descricao": "Monitor de alta resolução 4K para ambientes profissionais.",
+      "categoria": "Eletrônicos",
+      "preco": 2200.0,
+      "estoque": 80,
+      "dimensoes": {
+        "largura": 62,
+        "altura": 45,
+        "profundidade": 18
+      },
+      "peso": 7.0,
+      "fornecedor": {
+        "nome": "Monitor Tech",
+        "contato": {
+          "telefone": "+55 21 2345-6789",
+          "email": "suporte@monitortech.com"
+        },
+        "endereco": {
+          "logradouro": "Rua da Tecnologia, 234",
+          "bairro": "Barra da Tijuca",
+          "cidade": "Rio de Janeiro",
+          "estado": "RJ",
+          "cep": "22770-123"
+        }
+      },
+      "localizacao": {
+        "armazem": "E2",
+        "prateleira": "P4",
+        "posição": "A1"
+      },
+      "dataDeEntrada": "2025-02-10T00:00:00Z",
+      "dataDeValidade": "2029-02-10T00:00:00Z"
+    },
+    {
+      "id": "P10006",
+      "nome": "Teclado Mecânico",
+      "descricao": "Teclado mecânico com switches azuis e retroiluminação RGB.",
+      "categoria": "Eletrônicos",
+      "preco": 500.0,
+      "estoque": 120,
+      "dimensoes": {
+        "largura": 40,
+        "altura": 5,
+        "profundidade": 20
+      },
+      "peso": 1.2,
+      "fornecedor": {
+        "nome": "Tech Gadgets",
+        "contato": {
+          "telefone": "+55 31 2345-1234",
+          "email": "vendas@techgadgets.com"
+        },
+        "endereco": {
+          "logradouro": "Rua das Inovações, 456",
+          "bairro": "Centro",
+          "cidade": "Belo Horizonte",
+          "estado": "MG",
+          "cep": "30120-800"
+        }
+      },
+      "localizacao": {
+        "armazem": "F1",
+        "prateleira": "P7",
+        "posição": "D4"
+      },
+      "dataDeEntrada": "2025-02-15T00:00:00Z",
+      "dataDeValidade": "2027-02-15T00:00:00Z"
+    },
+    {
+      "id": "P10007",
+      "nome": "Fone de Ouvido Bluetooth",
+      "descricao": "Fone de ouvido sem fio com cancelamento de ruído.",
+      "categoria": "Eletrônicos",
+      "preco": 350.0,
+      "estoque": 200,
+      "dimensoes": {
+        "largura": 15,
+        "altura": 20,
+        "profundidade": 15
+      },
+      "peso": 0.3,
+      "fornecedor": {
+        "nome": "Audio Tech",
+        "contato": {
+          "telefone": "+55 21 9876-5432",
+          "email": "suporte@audiotech.com"
+        },
+        "endereco": {
+          "logradouro": "Rua da Música, 789",
+          "bairro": "Centro",
+          "cidade": "São Paulo",
+          "estado": "SP",
+          "cep": "01500-100"
+        }
+      },
+      "localizacao": {
+        "armazem": "G5",
+        "prateleira": "P2",
+        "posição": "E2"
+      },
+      "dataDeEntrada": "2025-03-01T00:00:00Z",
+      "dataDeValidade": "2028-03-01T00:00:00Z"
+    },
+    {
+      "id": "P10008",
+      "nome": "Câmera de Segurança 4K",
+      "descricao": "Câmera de segurança com resolução 4K e visão noturna.",
+      "categoria": "Segurança",
+      "preco": 950.0,
+      "estoque": 75,
+      "dimensoes": {
+        "largura": 12,
+        "altura": 10,
+        "profundidade": 10
+      },
+      "peso": 1.5,
+      "fornecedor": {
+        "nome": "Safe Security",
+        "contato": {
+          "telefone": "+55 11 8765-4321",
+          "email": "suporte@safe.com"
+        },
+        "endereco": {
+          "logradouro": "Avenida Segurança, 101",
+          "bairro": "Centro",
+          "cidade": "São Paulo",
+          "estado": "SP",
+          "cep": "01050-000"
+        }
+      },
+      "localizacao": {
+        "armazem": "H1",
+        "prateleira": "P6",
+        "posição": "F3"
+      },
+      "dataDeEntrada": "2025-03-10T00:00:00Z",
+      "dataDeValidade": "2030-03-10T00:00:00Z"
+    },
+    {
+      "id": "P10009",
+      "nome": "Sofá 3 Lugares",
+      "descricao": "Sofá confortável de 3 lugares, ideal para salas de estar.",
+      "categoria": "Mobiliário",
+      "preco": 1800.0,
+      "estoque": 25,
+      "dimensoes": {
+        "largura": 200,
+        "altura": 90,
+        "profundidade": 85
+      },
+      "peso": 40.0,
+      "fornecedor": {
+        "nome": "Sofás & Cia",
+        "contato": {
+          "telefone": "+55 51 1234-5678",
+          "email": "atendimento@sofasecia.com"
+        },
+        "endereco": {
+          "logradouro": "Rua do Mobiliário, 789",
+          "bairro": "Cidade Baixa",
+          "cidade": "Porto Alegre",
+          "estado": "RS",
+          "cep": "90010-100"
+        }
+      },
+      "localizacao": {
+        "armazem": "I2",
+        "prateleira": "P8",
+        "posição": "C5"
+      },
+      "dataDeEntrada": "2025-03-15T00:00:00Z",
+      "dataDeValidade": "2028-03-15T00:00:00Z"
+    },
+    {
+      "id": "P10010",
+      "nome": "Cafeteira Elétrica",
+      "descricao": "Cafeteira com capacidade para 12 xícaras e sistema de aquecimento.",
+      "categoria": "Eletrodomésticos",
+      "preco": 250.0,
+      "estoque": 200,
+      "dimensoes": {
+        "largura": 30,
+        "altura": 40,
+        "profundidade": 25
+      },
+      "peso": 2.0,
+      "fornecedor": {
+        "nome": "Café Rápido",
+        "contato": {
+          "telefone": "+55 11 2345-6789",
+          "email": "suporte@caferapido.com"
+        },
+        "endereco": {
+          "logradouro": "Rua do Café, 100",
+          "bairro": "Jardim Paulista",
+          "cidade": "São Paulo",
+          "estado": "SP",
+          "cep": "01234-000"
+        }
+      },
+      "localizacao": {
+        "armazem": "J3",
+        "prateleira": "P9",
+        "posição": "D7"
+      },
+      "dataDeEntrada": "2025-03-20T00:00:00Z",
+      "dataDeValidade": "2027-03-20T00:00:00Z"
+    },
+    {
+      "id": "P20011",
+      "nome": "Mesa Gamer LED",
+      "descricao": "Mesa gamer com iluminação RGB integrada.",
+      "categoria": "Mobiliário",
+      "preco": 799.99,
+      "estoque": 120,
+      "dimensoes": {
+        "largura": 140,
+        "altura": 75,
+        "profundidade": 65
+      },
+      "peso": 20.0,
+      "fornecedor": {
+        "nome": "Game Furniture Ltda.",
+        "contato": {
+          "telefone": "+55 11 99999-0000",
+          "email": "suporte@gamefurniture.com"
+        },
+        "endereco": {
+          "logradouro": "Rua dos Jogos, 321",
+          "bairro": "Centro",
+          "cidade": "Curitiba",
+          "estado": "PR",
+          "cep": "80010-000"
+        }
+      },
+      "localizacao": {
+        "armazem": "A3",
+        "prateleira": "P4",
+        "posição": "C2"
+      },
+      "dataDeEntrada": "2025-02-01T00:00:00Z",
+      "dataDeValidade": "2027-02-01T00:00:00Z"
+    },
+    {
+      "id": "P20012",
+      "nome": "Smart TV 50''",
+      "descricao": "Smart TV 4K com HDR e conexão Wi-Fi.",
+      "categoria": "Eletrônicos",
+      "preco": 2899.0,
+      "estoque": 75,
+      "dimensoes": {
+        "largura": 112,
+        "altura": 70,
+        "profundidade": 10
+      },
+      "peso": 14.5,
+      "fornecedor": {
+        "nome": "TechVision",
+        "contato": {
+          "telefone": "+55 21 2345-6789",
+          "email": "suporte@techvision.com"
+        },
+        "endereco": {
+          "logradouro": "Avenida Digital, 500",
+          "bairro": "Centro",
+          "cidade": "Rio de Janeiro",
+          "estado": "RJ",
+          "cep": "20040-010"
+        }
+      },
+      "localizacao": {
+        "armazem": "D2",
+        "prateleira": "P6",
+        "posição": "E4"
+      },
+      "dataDeEntrada": "2025-01-20T00:00:00Z",
+      "dataDeValidade": "2028-01-20T00:00:00Z"
+    },
+    {
+      "id": "P200013",
+      "nome": "Smartphone Android",
+      "descricao": "Smartphone com tela de 6.5 polegadas, câmera de 48MP e processador Octa-core.",
+      "categoria": "Eletrônicos",
+      "preco": 1200.0,
+      "estoque": 50,
+      "dimensoes": {
+        "largura": 7.5,
+        "altura": 15.5,
+        "profundidade": 0.8
+      },
+      "peso": 0.2,
+      "fornecedor": {
+        "nome": "TechStore",
+        "contato": {
+          "telefone": "+55 11 99876-5432",
+          "email": "vendas@techstore.com"
+        },
+        "endereco": {
+          "logradouro": "Avenida Paulista, 1200",
+          "bairro": "Bela Vista",
+          "cidade": "São Paulo",
+          "estado": "SP",
+          "cep": "01310-100"
+        }
+      },
+      "localizacao": {
+        "armazem": "A1",
+        "prateleira": "P1",
+        "posição": "B2"
+      },
+      "dataDeEntrada": "2025-04-01T00:00:00Z",
+      "dataDeValidade": "2028-04-01T00:00:00Z"
+    },
+    {
+      "id": "P200014",
+      "nome": "Cafeteira Expresso",
+      "descricao": "Máquina de café expresso com capacidade para 1,5L e 15 bar de pressão.",
+      "categoria": "Eletrodomésticos",
+      "preco": 550.0,
+      "estoque": 80,
+      "dimensoes": {
+        "largura": 25,
+        "altura": 30,
+        "profundidade": 20
+      },
+      "peso": 1.5,
+      "fornecedor": {
+        "nome": "Café Express",
+        "contato": {
+          "telefone": "+55 21 98765-4321",
+          "email": "suporte@cafeexpress.com"
+        },
+        "endereco": {
+          "logradouro": "Rua das Laranjeiras, 400",
+          "bairro": "Laranjeiras",
+          "cidade": "Rio de Janeiro",
+          "estado": "RJ",
+          "cep": "22240-120"
+        }
+      },
+      "localizacao": {
+        "armazem": "B2",
+        "prateleira": "P4",
+        "posição": "F3"
+      },
+      "dataDeEntrada": "2025-04-02T00:00:00Z",
+      "dataDeValidade": "2028-04-02T00:00:00Z"
+    },
+    {
+      "id": "P200015",
+      "nome": "Monitor 4K",
+      "descricao": "Monitor LED 4K de 27 polegadas com taxa de atualização de 144Hz.",
+      "categoria": "Informática",
+      "preco": 1500.0,
+      "estoque": 60,
+      "dimensoes": {
+        "largura": 61,
+        "altura": 41,
+        "profundidade": 3
+      },
+      "peso": 5.0,
+      "fornecedor": {
+        "nome": "DisplayPro",
+        "contato": {
+          "telefone": "+55 31 99875-6677",
+          "email": "contato@displaypro.com"
+        },
+        "endereco": {
+          "logradouro": "Rua dos Compositores, 150",
+          "bairro": "Centro",
+          "cidade": "Belo Horizonte",
+          "estado": "MG",
+          "cep": "30110-120"
+        }
+      },
+      "localizacao": {
+        "armazem": "C1",
+        "prateleira": "P2",
+        "posição": "A5"
+      },
+      "dataDeEntrada": "2025-04-03T00:00:00Z",
+      "dataDeValidade": "2028-04-03T00:00:00Z"
+    },
+    {
+      "id": "P200016",
+      "nome": "Fone de Ouvido Bluetooth",
+      "descricao": "Fone de ouvido sem fio com cancelamento de ruído ativo e até 30 horas de bateria.",
+      "categoria": "Acessórios",
+      "preco": 350.0,
+      "estoque": 150,
+      "dimensoes": {
+        "largura": 15,
+        "altura": 20,
+        "profundidade": 8
+      },
+      "peso": 0.3,
+      "fornecedor": {
+        "nome": "AudioTech",
+        "contato": {
+          "telefone": "+55 61 99432-8765",
+          "email": "vendas@audiotech.com"
+        },
+        "endereco": {
+          "logradouro": "Shoppings Park, 100",
+          "bairro": "Setor Comercial",
+          "cidade": "Brasília",
+          "estado": "DF",
+          "cep": "70000-010"
+        }
+      },
+      "localizacao": {
+        "armazem": "D3",
+        "prateleira": "P5",
+        "posição": "C1"
+      },
+      "dataDeEntrada": "2025-04-05T00:00:00Z",
+      "dataDeValidade": "2027-04-05T00:00:00Z"
+    },
+    {
+      "id": "P200017",
+      "nome": "Impressora Multifuncional",
+      "descricao": "Impressora a laser, scanner e copiadora com conectividade Wi-Fi.",
+      "categoria": "Informática",
+      "preco": 1000.0,
+      "estoque": 40,
+      "dimensoes": {
+        "largura": 45,
+        "altura": 35,
+        "profundidade": 30
+      },
+      "peso": 6.0,
+      "fornecedor": {
+        "nome": "PrintPro",
+        "contato": {
+          "telefone": "+55 71 92222-3333",
+          "email": "suporte@printpro.com"
+        },
+        "endereco": {
+          "logradouro": "Rua da Impressão, 420",
+          "bairro": "Centro",
+          "cidade": "Salvador",
+          "estado": "BA",
+          "cep": "40000-020"
+        }
+      },
+      "localizacao": {
+        "armazem": "E2",
+        "prateleira": "P6",
+        "posição": "B4"
+      },
+      "dataDeEntrada": "2025-04-07T00:00:00Z",
+      "dataDeValidade": "2027-04-07T00:00:00Z"
+    },
+    {
+      "id": "P200018",
+      "nome": "Smartwatch Fitness",
+      "descricao": "Relógio inteligente com monitoramento de saúde, GPS e resistência à água.",
+      "categoria": "Acessórios",
+      "preco": 450.0,
+      "estoque": 90,
+      "dimensoes": {
+        "largura": 4,
+        "altura": 10,
+        "profundidade": 1
+      },
+      "peso": 0.4,
+      "fornecedor": {
+        "nome": "TechFit",
+        "contato": {
+          "telefone": "+55 19 99988-7777",
+          "email": "atendimento@techfit.com"
+        },
+        "endereco": {
+          "logradouro": "Avenida São João, 950",
+          "bairro": "Vila Progresso",
+          "cidade": "Campinas",
+          "estado": "SP",
+          "cep": "13000-000"
+        }
+      },
+      "localizacao": {
+        "armazem": "F3",
+        "prateleira": "P8",
+        "posição": "D2"
+      },
+      "dataDeEntrada": "2025-04-10T00:00:00Z",
+      "dataDeValidade": "2027-04-10T00:00:00Z"
+    },
+    {
+      "id": "P200019",
+      "nome": "Caixa de Som Bluetooth",
+      "descricao": "Caixa de som portátil com 20W de potência e resistência à água.",
+      "categoria": "Áudio",
+      "preco": 220.0,
+      "estoque": 120,
+      "dimensoes": {
+        "largura": 18,
+        "altura": 8,
+        "profundidade": 7
+      },
+      "peso": 0.9,
+      "fornecedor": {
+        "nome": "SoundBox",
+        "contato": {
+          "telefone": "+55 48 99876-6543",
+          "email": "suporte@soundbox.com"
+        },
+        "endereco": {
+          "logradouro": "Rua do Som, 300",
+          "bairro": "Centro",
+          "cidade": "Florianópolis",
+          "estado": "SC",
+          "cep": "88010-150"
+        }
+      },
+      "localizacao": {
+        "armazem": "G1",
+        "prateleira": "P7",
+        "posição": "E5"
+      },
+      "dataDeEntrada": "2025-04-12T00:00:00Z",
+      "dataDeValidade": "2028-04-12T00:00:00Z"
+    },
+    {
+      "id": "P200020",
+      "nome": "Tablet 10 Polegadas",
+      "descricao": "Tablet Android com 64GB de armazenamento e tela de 10 polegadas.",
+      "categoria": "Eletrônicos",
+      "preco": 850.0,
+      "estoque": 70,
+      "dimensoes": {
+        "largura": 18,
+        "altura": 25,
+        "profundidade": 1
+      },
+      "peso": 0.6,
+      "fornecedor": {
+        "nome": "GigaTech",
+        "contato": {
+          "telefone": "+55 41 99888-7766",
+          "email": "contato@gigatech.com"
+        },
+        "endereco": {
+          "logradouro": "Rua Tecnologia, 456",
+          "bairro": "Vila Nova",
+          "cidade": "Curitiba",
+          "estado": "PR",
+          "cep": "80010-050"
+        }
+      },
+      "localizacao": {
+        "armazem": "H2",
+        "prateleira": "P9",
+        "posição": "A1"
+      },
+      "dataDeEntrada": "2025-04-15T00:00:00Z",
+      "dataDeValidade": "2028-04-15T00:00:00Z"
+    },
+    {
+      "id": "P200021",
+      "nome": "Geladeira Frost Free",
+      "descricao": "Geladeira Frost Free com 400L, 2 portas e tecnologia de economia de energia.",
+      "categoria": "Eletrodomésticos",
+      "preco": 2499.9,
+      "estoque": 10,
+      "dimensoes": {
+        "largura": 70,
+        "altura": 185,
+        "profundidade": 75
+      },
+      "peso": 75.5,
+      "fornecedor": {
+        "nome": "Brastemp",
+        "contato": {
+          "telefone": "+55 11 2345-6789",
+          "email": "contato@brastemp.com.br"
+        },
+        "endereco": {
+          "logradouro": "Av. das Indústrias, 400",
+          "bairro": "Vila São João",
+          "cidade": "São Paulo",
+          "estado": "SP",
+          "cep": "05000-000"
+        }
+      },
+      "localizacao": {
+        "armazem": "A1",
+        "prateleira": "P4",
+        "posição": "B2"
+      },
+      "dataDeEntrada": "2025-02-01T00:00:00Z",
+      "dataDeValidade": "2030-02-01T00:00:00Z"
+    },
+    {
+      "id": "P200022",
+      "nome": "Micro-ondas 30L",
+      "descricao": "Micro-ondas de 30L com 10 níveis de potência e função de descongelamento.",
+      "categoria": "Eletrodomésticos",
+      "preco": 899.99,
+      "estoque": 25,
+      "dimensoes": {
+        "largura": 50,
+        "altura": 30,
+        "profundidade": 40
+      },
+      "peso": 14.5,
+      "fornecedor": {
+        "nome": "Panasonic",
+        "contato": {
+          "telefone": "+55 21 99877-6655",
+          "email": "contato@panasonic.com.br"
+        },
+        "endereco": {
+          "logradouro": "Rua Rio Branco, 500",
+          "bairro": "Centro",
+          "cidade": "Rio de Janeiro",
+          "estado": "RJ",
+          "cep": "20090-030"
+        }
+      },
+      "localizacao": {
+        "armazem": "B2",
+        "prateleira": "P7",
+        "posição": "C1"
+      },
+      "dataDeEntrada": "2025-02-02T00:00:00Z",
+      "dataDeValidade": "2030-02-02T00:00:00Z"
+    },
+    {
+      "id": "P200023",
+      "nome": "Cafeteira Elétrica",
+      "descricao": "Cafeteira de cápsulas Nespresso com sistema de aquecimento rápido.",
+      "categoria": "Eletrodomésticos",
+      "preco": 299.99,
+      "estoque": 15,
+      "dimensoes": {
+        "largura": 25,
+        "altura": 35,
+        "profundidade": 20
+      },
+      "peso": 3.2,
+      "fornecedor": {
+        "nome": "Nespresso",
+        "contato": {
+          "telefone": "+55 31 99988-4433",
+          "email": "contato@nespresso.com.br"
+        },
+        "endereco": {
+          "logradouro": "Av. Paulista, 456",
+          "bairro": "Jardim Paulista",
+          "cidade": "São Paulo",
+          "estado": "SP",
+          "cep": "01311-000"
+        }
+      },
+      "localizacao": {
+        "armazem": "C3",
+        "prateleira": "P10",
+        "posição": "D2"
+      },
+      "dataDeEntrada": "2025-02-03T00:00:00Z",
+      "dataDeValidade": "2030-02-03T00:00:00Z"
+    },
+    {
+      "id": "P200024",
+      "nome": "Liquidificador 800W",
+      "descricao": "Liquidificador de 800W com 4 lâminas e 3 velocidades.",
+      "categoria": "Eletrodomésticos",
+      "preco": 199.9,
+      "estoque": 30,
+      "dimensoes": {
+        "largura": 20,
+        "altura": 40,
+        "profundidade": 30
+      },
+      "peso": 2.5,
+      "fornecedor": {
+        "nome": "Arno",
+        "contato": {
+          "telefone": "+55 11 3345-9898",
+          "email": "contato@arno.com.br"
+        },
+        "endereco": {
+          "logradouro": "Rua São José, 100",
+          "bairro": "Vila Cisper",
+          "cidade": "São Paulo",
+          "estado": "SP",
+          "cep": "08190-500"
+        }
+      },
+      "localizacao": {
+        "armazem": "D4",
+        "prateleira": "P2",
+        "posição": "A4"
+      },
+      "dataDeEntrada": "2025-02-04T00:00:00Z",
+      "dataDeValidade": "2030-02-04T00:00:00Z"
+    },
+    {
+      "id": "P200025",
+      "nome": "Aspirador de Pó 2000W",
+      "descricao": "Aspirador de pó com 2000W e filtro HEPA.",
+      "categoria": "Eletrodomésticos",
+      "preco": 599.99,
+      "estoque": 10,
+      "dimensoes": {
+        "largura": 35,
+        "altura": 25,
+        "profundidade": 50
+      },
+      "peso": 5.2,
+      "fornecedor": {
+        "nome": "Electrolux",
+        "contato": {
+          "telefone": "+55 21 98765-4321",
+          "email": "contato@electrolux.com.br"
+        },
+        "endereco": {
+          "logradouro": "Av. Amazonas, 2000",
+          "bairro": "Barro Preto",
+          "cidade": "Belo Horizonte",
+          "estado": "MG",
+          "cep": "30180-000"
+        }
+      },
+      "localizacao": {
+        "armazem": "E5",
+        "prateleira": "P1",
+        "posição": "B5"
+      },
+      "dataDeEntrada": "2025-02-05T00:00:00Z",
+      "dataDeValidade": "2030-02-05T00:00:00Z"
+    },
+    {
+      "id": "P200026",
+      "nome": "Ferro de Passar a Vapor",
+      "descricao": "Ferro a vapor com base antiaderente e controle de temperatura.",
+      "categoria": "Eletrodomésticos",
+      "preco": 179.99,
+      "estoque": 20,
+      "dimensoes": {
+        "largura": 30,
+        "altura": 15,
+        "profundidade": 18
+      },
+      "peso": 1.2,
+      "fornecedor": {
+        "nome": "Philips",
+        "contato": {
+          "telefone": "+55 41 99988-7766",
+          "email": "contato@philips.com.br"
+        },
+        "endereco": {
+          "logradouro": "Rua Bom Jesus, 1050",
+          "bairro": "Vila Paraíso",
+          "cidade": "Curitiba",
+          "estado": "PR",
+          "cep": "80010-100"
+        }
+      },
+      "localizacao": {
+        "armazem": "F3",
+        "prateleira": "P8",
+        "posição": "A2"
+      },
+      "dataDeEntrada": "2025-02-06T00:00:00Z",
+      "dataDeValidade": "2030-02-06T00:00:00Z"
+    },
+    {
+      "id": "P200027",
+      "nome": "Máquina de Lavar Roupas 10kg",
+      "descricao": "Máquina de lavar com 10kg de capacidade e lavagem rápida.",
+      "categoria": "Eletrodomésticos",
+      "preco": 2199.9,
+      "estoque": 5,
+      "dimensoes": {
+        "largura": 60,
+        "altura": 85,
+        "profundidade": 60
+      },
+      "peso": 65.0,
+      "fornecedor": {
+        "nome": "Samsung",
+        "contato": {
+          "telefone": "+55 11 98765-4321",
+          "email": "contato@samsung.com.br"
+        },
+        "endereco": {
+          "logradouro": "Rua dos Três Irmãos, 100",
+          "bairro": "Jardim São Paulo",
+          "cidade": "São Paulo",
+          "estado": "SP",
+          "cep": "01010-100"
+        }
+      },
+      "localizacao": {
+        "armazem": "G6",
+        "prateleira": "P5",
+        "posição": "D3"
+      },
+      "dataDeEntrada": "2025-02-07T00:00:00Z",
+      "dataDeValidade": "2030-02-07T00:00:00Z"
+    },
+    {
+      "id": "P200028",
+      "nome": "Forno Elétrico 45L",
+      "descricao": "Forno elétrico com 6 funções de preparo e timer digital.",
+      "categoria": "Eletrodomésticos",
+      "preco": 499.9,
+      "estoque": 12,
+      "dimensoes": {
+        "largura": 45,
+        "altura": 30,
+        "profundidade": 35
+      },
+      "peso": 10.5,
+      "fornecedor": {
+        "nome": "Consul",
+        "contato": {
+          "telefone": "+55 41 91234-5678",
+          "email": "contato@consul.com.br"
+        },
+        "endereco": {
+          "logradouro": "Rua D. Pedro, 1000",
+          "bairro": "Vila Progresso",
+          "cidade": "Curitiba",
+          "estado": "PR",
+          "cep": "80050-050"
+        }
+      },
+      "localizacao": {
+        "armazem": "H1",
+        "prateleira": "P6",
+        "posição": "B7"
+      },
+      "dataDeEntrada": "2025-02-08T00:00:00Z",
+      "dataDeValidade": "2030-02-08T00:00:00Z"
+    },
+    {
+      "id": "P200029",
+      "nome": "Furadeira de Impacto 800W",
+      "descricao": "Furadeira de impacto com 800W de potência e mandril de 13mm.",
+      "categoria": "Ferramentas Elétricas",
+      "preco": 349.9,
+      "estoque": 15,
+      "dimensoes": {
+        "largura": 30,
+        "altura": 25,
+        "profundidade": 20
+      },
+      "peso": 2.5,
+      "fornecedor": {
+        "nome": "Makita",
+        "contato": {
+          "telefone": "+55 11 98765-4321",
+          "email": "contato@makita.com.br"
+        },
+        "endereco": {
+          "logradouro": "Rua do Trabalho, 100",
+          "bairro": "Vila Operária",
+          "cidade": "São Paulo",
+          "estado": "SP",
+          "cep": "01000-000"
+        }
+      },
+      "localizacao": {
+        "armazem": "I2",
+        "prateleira": "P3",
+        "posição": "C6"
+      },
+      "dataDeEntrada": "2025-02-10T00:00:00Z",
+      "dataDeValidade": "2030-02-10T00:00:00Z"
+    },
+    {
+      "id": "P200030",
+      "nome": "Parafusadeira 12V",
+      "descricao": "Parafusadeira compacta de 12V com 20 posições de torque.",
+      "categoria": "Ferramentas Elétricas",
+      "preco": 259.9,
+      "estoque": 20,
+      "dimensoes": {
+        "largura": 22,
+        "altura": 18,
+        "profundidade": 8
+      },
+      "peso": 1.2,
+      "fornecedor": {
+        "nome": "DeWalt",
+        "contato": {
+          "telefone": "+55 21 98765-1234",
+          "email": "contato@dewalt.com.br"
+        },
+        "endereco": {
+          "logradouro": "Av. Industrial, 500",
+          "bairro": "Centro",
+          "cidade": "Rio de Janeiro",
+          "estado": "RJ",
+          "cep": "20010-000"
+        }
+      },
+      "localizacao": {
+        "armazem": "J3",
+        "prateleira": "P4",
+        "posição": "D1"
+      },
+      "dataDeEntrada": "2025-02-11T00:00:00Z",
+      "dataDeValidade": "2030-02-11T00:00:00Z"
+    },
+    {
+      "id": "P200031",
+      "nome": "Serradeira Circular 1400W",
+      "descricao": "Serradeira circular com 1400W de potência e disco de 185mm.",
+      "categoria": "Ferramentas Elétricas",
+      "preco": 599.9,
+      "estoque": 8,
+      "dimensoes": {
+        "largura": 35,
+        "altura": 40,
+        "profundidade": 45
+      },
+      "peso": 4.5,
+      "fornecedor": {
+        "nome": "Bosch",
+        "contato": {
+          "telefone": "+55 11 3345-6789",
+          "email": "contato@bosch.com.br"
+        },
+        "endereco": {
+          "logradouro": "Av. São João, 450",
+          "bairro": "Centro",
+          "cidade": "São Paulo",
+          "estado": "SP",
+          "cep": "02000-000"
+        }
+      },
+      "localizacao": {
+        "armazem": "K4",
+        "prateleira": "P9",
+        "posição": "A3"
+      },
+      "dataDeEntrada": "2025-02-12T00:00:00Z",
+      "dataDeValidade": "2030-02-12T00:00:00Z"
+    },
+    {
+      "id": "P200032",
+      "nome": "Lixadeira Orbital 200W",
+      "descricao": "Lixadeira orbital de 200W com base de 125mm e controle de velocidade.",
+      "categoria": "Ferramentas Elétricas",
+      "preco": 149.9,
+      "estoque": 30,
+      "dimensoes": {
+        "largura": 25,
+        "altura": 15,
+        "profundidade": 25
+      },
+      "peso": 1.8,
+      "fornecedor": {
+        "nome": "Black+Decker",
+        "contato": {
+          "telefone": "+55 21 99123-4567",
+          "email": "contato@blackdecker.com.br"
+        },
+        "endereco": {
+          "logradouro": "Rua da Indústria, 1000",
+          "bairro": "Vila Nova",
+          "cidade": "São Bernardo do Campo",
+          "estado": "SP",
+          "cep": "09810-000"
+        }
+      },
+      "localizacao": {
+        "armazem": "L5",
+        "prateleira": "P2",
+        "posição": "B8"
+      },
+      "dataDeEntrada": "2025-02-13T00:00:00Z",
+      "dataDeValidade": "2030-02-13T00:00:00Z"
+    },
+    {
+      "id": "P200033",
+      "nome": "Esmerilhadeira 750W",
+      "descricao": "Esmerilhadeira angular de 750W com disco de 115mm e protetor ajustável.",
+      "categoria": "Ferramentas Elétricas",
+      "preco": 179.9,
+      "estoque": 25,
+      "dimensoes": {
+        "largura": 18,
+        "altura": 12,
+        "profundidade": 35
+      },
+      "peso": 2.2,
+      "fornecedor": {
+        "nome": "Stanley",
+        "contato": {
+          "telefone": "+55 31 99877-6655",
+          "email": "contato@stanley.com.br"
+        },
+        "endereco": {
+          "logradouro": "Rua do Comércio, 200",
+          "bairro": "Vila Industrial",
+          "cidade": "Belo Horizonte",
+          "estado": "MG",
+          "cep": "30140-000"
+        }
+      },
+      "localizacao": {
+        "armazem": "M1",
+        "prateleira": "P6",
+        "posição": "C4"
+      },
+      "dataDeEntrada": "2025-02-14T00:00:00Z",
+      "dataDeValidade": "2030-02-14T00:00:00Z"
+    },
+    {
+      "id": "P200034",
+      "nome": "Pastilhas de Freio - Dianteira",
+      "descricao": "Pastilhas de freio dianteiras para carros de passeio.",
+      "categoria": "Peças de Carro",
+      "preco": 180.0,
+      "estoque": 50,
+      "dimensoes": {
+        "largura": 10,
+        "altura": 3,
+        "profundidade": 20
+      },
+      "peso": 1.2,
+      "fornecedor": {
+        "nome": "FreiosBrasil",
+        "contato": {
+          "telefone": "+55 11 3345-6789",
+          "email": "contato@freiosbrasil.com.br"
+        },
+        "endereco": {
+          "logradouro": "Rua dos Freios, 321",
+          "bairro": "Vila Carro",
+          "cidade": "São Paulo",
+          "estado": "SP",
+          "cep": "01030-000"
+        }
+      },
+      "localizacao": {
+        "armazem": "N1",
+        "prateleira": "P3",
+        "posição": "A2"
+      },
+      "dataDeEntrada": "2025-01-10T00:00:00Z",
+      "dataDeValidade": "2028-01-10T00:00:00Z"
+    },
+    {
+      "id": "P200035",
+      "nome": "Amortecedor Traseiro",
+      "descricao": "Amortecedor traseiro para veículos de passeio e utilitários.",
+      "categoria": "Peças de Carro",
+      "preco": 250.0,
+      "estoque": 30,
+      "dimensoes": {
+        "largura": 10,
+        "altura": 40,
+        "profundidade": 10
+      },
+      "peso": 4.0,
+      "fornecedor": {
+        "nome": "AmortecedoresPremium",
+        "contato": {
+          "telefone": "+55 21 98765-4321",
+          "email": "contato@amortecedorespremium.com.br"
+        },
+        "endereco": {
+          "logradouro": "Av. Industrial, 550",
+          "bairro": "Centro",
+          "cidade": "Rio de Janeiro",
+          "estado": "RJ",
+          "cep": "20010-000"
+        }
+      },
+      "localizacao": {
+        "armazem": "O2",
+        "prateleira": "P4",
+        "posição": "B1"
+      },
+      "dataDeEntrada": "2025-01-12T00:00:00Z",
+      "dataDeValidade": "2029-01-12T00:00:00Z"
+    },
+    {
+      "id": "P200036",
+      "nome": "Filtro de Ar do Motor",
+      "descricao": "Filtro de ar para motores de carros a gasolina.",
+      "categoria": "Peças de Carro",
+      "preco": 120.0,
+      "estoque": 70,
+      "dimensoes": {
+        "largura": 18,
+        "altura": 6,
+        "profundidade": 18
+      },
+      "peso": 0.9,
+      "fornecedor": {
+        "nome": "FiltrosAutomotivos",
+        "contato": {
+          "telefone": "+55 41 99888-7766",
+          "email": "contato@filtrosautomotivos.com.br"
+        },
+        "endereco": {
+          "logradouro": "Rua dos Filtros, 1010",
+          "bairro": "Jardim Carro",
+          "cidade": "Curitiba",
+          "estado": "PR",
+          "cep": "80030-000"
+        }
+      },
+      "localizacao": {
+        "armazem": "P1",
+        "prateleira": "P5",
+        "posição": "C7"
+      },
+      "dataDeEntrada": "2025-01-14T00:00:00Z",
+      "dataDeValidade": "2030-01-14T00:00:00Z"
+    },
+    {
+      "id": "P200037",
+      "nome": "Lâmpada Halógena 12V",
+      "descricao": "Lâmpada halógena 12V para faróis de veículos.",
+      "categoria": "Peças de Carro",
+      "preco": 35.0,
+      "estoque": 100,
+      "dimensoes": {
+        "largura": 5,
+        "altura": 7,
+        "profundidade": 5
+      },
+      "peso": 0.2,
+      "fornecedor": {
+        "nome": "LâmpadasX",
+        "contato": {
+          "telefone": "+55 51 3345-8901",
+          "email": "contato@lampadasx.com.br"
+        },
+        "endereco": {
+          "logradouro": "Rua da Luz, 150",
+          "bairro": "Vila Farol",
+          "cidade": "Porto Alegre",
+          "estado": "RS",
+          "cep": "90010-000"
+        }
+      },
+      "localizacao": {
+        "armazem": "Q1",
+        "prateleira": "P2",
+        "posição": "D9"
+      },
+      "dataDeEntrada": "2025-01-16T00:00:00Z",
+      "dataDeValidade": "2029-01-16T00:00:00Z"
+    },
+    {
+      "id": "P200038",
+      "nome": "Pneus Radiais 205/55 R16",
+      "descricao": "Pneus radiais de 205/55 R16, adequados para veículos de passeio.",
+      "categoria": "Peças de Carro",
+      "preco": 350.0,
+      "estoque": 40,
+      "dimensoes": {
+        "largura": 70,
+        "altura": 70,
+        "profundidade": 70
+      },
+      "peso": 8.0,
+      "fornecedor": {
+        "nome": "PneusGoodyear",
+        "contato": {
+          "telefone": "+55 31 91234-5678",
+          "email": "contato@pneusgoodyear.com.br"
+        },
+        "endereco": {
+          "logradouro": "Rua da Borracha, 400",
+          "bairro": "Vila Pneus",
+          "cidade": "Belo Horizonte",
+          "estado": "MG",
+          "cep": "30160-000"
+        }
+      },
+      "localizacao": {
+        "armazem": "R3",
+        "prateleira": "P8",
+        "posição": "C5"
+      },
+      "dataDeEntrada": "2025-01-18T00:00:00Z",
+      "dataDeValidade": "2030-01-18T00:00:00Z"
+    },
+    {
+      "id": "P200039",
+      "nome": "Correia Dentada",
+      "descricao": "Correia dentada para motor de carros modelos compactos.",
+      "categoria": "Peças de Carro",
+      "preco": 60.0,
+      "estoque": 120,
+      "dimensoes": {
+        "largura": 4,
+        "altura": 2,
+        "profundidade": 2
+      },
+      "peso": 0.3,
+      "fornecedor": {
+        "nome": "AutoPeçasCor",
+        "contato": {
+          "telefone": "+55 11 99988-7766",
+          "email": "contato@autopecascor.com.br"
+        },
+        "endereco": {
+          "logradouro": "Av. dos Carros, 890",
+          "bairro": "Cidade do Automóvel",
+          "cidade": "São Paulo",
+          "estado": "SP",
+          "cep": "03000-000"
+        }
+      },
+      "localizacao": {
+        "armazem": "S4",
+        "prateleira": "P7",
+        "posição": "A5"
+      },
+      "dataDeEntrada": "2025-01-20T00:00:00Z",
+      "dataDeValidade": "2028-01-20T00:00:00Z"
+    },
+    {
+      "id": "P200040",
+      "nome": "Bateria 12V 60Ah",
+      "descricao": "Bateria automotiva 12V 60Ah, ideal para carros de passeio.",
+      "categoria": "Peças de Carro",
+      "preco": 380.0,
+      "estoque": 15,
+      "dimensoes": {
+        "largura": 18,
+        "altura": 20,
+        "profundidade": 30
+      },
+      "peso": 5.0,
+      "fornecedor": {
+        "nome": "BateriasPower",
+        "contato": {
+          "telefone": "+55 21 92222-3333",
+          "email": "contato@bateriaspower.com.br"
+        },
+        "endereco": {
+          "logradouro": "Rua das Baterias, 800",
+          "bairro": "Vila Energia",
+          "cidade": "Rio de Janeiro",
+          "estado": "RJ",
+          "cep": "22000-000"
+        }
+      },
+      "localizacao": {
+        "armazem": "T2",
+        "prateleira": "P1",
+        "posição": "B4"
+      },
+      "dataDeEntrada": "2025-01-22T00:00:00Z",
+      "dataDeValidade": "2030-01-22T00:00:00Z"
+    },
+    {
+      "id": "P200041",
+      "nome": "Jogo de Velas de Ignição",
+      "descricao": "Jogo completo de velas de ignição para motores a gasolina.",
+      "categoria": "Peças de Carro",
+      "preco": 80.0,
+      "estoque": 65,
+      "dimensoes": {
+        "largura": 2,
+        "altura": 8,
+        "profundidade": 2
+      },
+      "peso": 0.6,
+      "fornecedor": {
+        "nome": "VelasAuto",
+        "contato": {
+          "telefone": "+55 41 97555-9999",
+          "email": "contato@velasauto.com.br"
+        },
+        "endereco": {
+          "logradouro": "Rua da Ignicao, 50",
+          "bairro": "Jardim Motor",
+          "cidade": "Curitiba",
+          "estado": "PR",
+          "cep": "80420-000"
+        }
+      },
+      "localizacao": {
+        "armazem": "W5",
+        "prateleira": "P2",
+        "posição": "C8"
+      },
+      "dataDeEntrada": "2025-01-24T00:00:00Z",
+      "dataDeValidade": "2029-01-24T00:00:00Z"
+    },
+    {
+      "id": "P200042",
+      "nome": "Escapamento Completo",
+      "descricao": "Escapamento completo para veículos de passeio.",
+      "categoria": "Peças de Carro",
+      "preco": 550.0,
+      "estoque": 22,
+      "dimensoes": {
+        "largura": 30,
+        "altura": 20,
+        "profundidade": 50
+      },
+      "peso": 12.0,
+      "fornecedor": {
+        "nome": "EscapamentosX",
+        "contato": {
+          "telefone": "+55 61 3344-5599",
+          "email": "contato@escapamentosx.com.br"
+        },
+        "endereco": {
+          "logradouro": "Avenida das Peças, 120",
+          "bairro": "Zona Industrial",
+          "cidade": "Brasília",
+          "estado": "DF",
+          "cep": "70000-000"
+        }
+      },
+      "localizacao": {
+        "armazem": "Z9",
+        "prateleira": "P6",
+        "posição": "D3"
+      },
+      "dataDeEntrada": "2025-01-26T00:00:00Z",
+      "dataDeValidade": "2032-01-26T00:00:00Z"
+    },
+    {
+      "id": "P200043",
+      "nome": "Disco de Freio - Traseiro",
+      "descricao": "Disco de freio traseiro para carros de médio porte.",
+      "categoria": "Peças de Carro",
+      "preco": 230.0,
+      "estoque": 85,
+      "dimensoes": {
+        "largura": 20,
+        "altura": 5,
+        "profundidade": 20
+      },
+      "peso": 3.0,
+      "fornecedor": {
+        "nome": "FreioMax",
+        "contato": {
+          "telefone": "+55 11 93456-7890",
+          "email": "contato@freiomax.com.br"
+        },
+        "endereco": {
+          "logradouro": "Rua dos Discos, 12",
+          "bairro": "Zona Carro",
+          "cidade": "São Paulo",
+          "estado": "SP",
+          "cep": "05000-000"
+        }
+      },
+      "localizacao": {
+        "armazem": "B7",
+        "prateleira": "P4",
+        "posição": "B2"
+      },
+      "dataDeEntrada": "2025-01-28T00:00:00Z",
+      "dataDeValidade": "2030-01-28T00:00:00Z"
+    },
+    {
+      "id": "P200044",
+      "nome": "Bocal de Combustível",
+      "descricao": "Bocal de abastecimento para tanque de combustível.",
+      "categoria": "Peças de Carro",
+      "preco": 90.0,
+      "estoque": 60,
+      "dimensoes": {
+        "largura": 8,
+        "altura": 12,
+        "profundidade": 8
+      },
+      "peso": 0.5,
+      "fornecedor": {
+        "nome": "PeçasFuel",
+        "contato": {
+          "telefone": "+55 47 3214-5555",
+          "email": "contato@pecasfuel.com.br"
+        },
+        "endereco": {
+          "logradouro": "Rua do Abastecimento, 199",
+          "bairro": "São Lucas",
+          "cidade": "Florianópolis",
+          "estado": "SC",
+          "cep": "88030-000"
+        }
+      },
+      "localizacao": {
+        "armazem": "M4",
+        "prateleira": "P1",
+        "posição": "C6"
+      },
+      "dataDeEntrada": "2025-01-30T00:00:00Z",
+      "dataDeValidade": "2029-01-30T00:00:00Z"
+    },
+    {
+      "id": "P200045",
+      "nome": "Sementes de Alface",
+      "descricao": "Sementes de alface orgânica para cultivo doméstico.",
+      "categoria": "Jardinagem",
+      "preco": 12.0,
+      "estoque": 150,
+      "dimensoes": {
+        "largura": 5,
+        "altura": 10,
+        "profundidade": 2
+      },
+      "peso": 0.1,
+      "fornecedor": {
+        "nome": "JardimVerde",
+        "contato": {
+          "telefone": "+55 11 91234-5678",
+          "email": "contato@jardimverde.com.br"
+        },
+        "endereco": {
+          "logradouro": "Rua das Flores, 25",
+          "bairro": "Jardim Paulista",
+          "cidade": "São Paulo",
+          "estado": "SP",
+          "cep": "01310-000"
+        }
+      },
+      "localizacao": {
+        "armazem": "A1",
+        "prateleira": "P1",
+        "posição": "A3"
+      },
+      "dataDeEntrada": "2025-01-15T00:00:00Z",
+      "dataDeValidade": "2027-01-15T00:00:00Z"
+    },
+    {
+      "id": "P200046",
+      "nome": "Terra para Plantio",
+      "descricao": "Mistura de terra ideal para o plantio de hortas e jardins.",
+      "categoria": "Jardinagem",
+      "preco": 25.0,
+      "estoque": 120,
+      "dimensoes": {
+        "largura": 30,
+        "altura": 40,
+        "profundidade": 10
+      },
+      "peso": 5.0,
+      "fornecedor": {
+        "nome": "TerraBoa",
+        "contato": {
+          "telefone": "+55 51 98765-4321",
+          "email": "contato@terraboa.com.br"
+        },
+        "endereco": {
+          "logradouro": "Rua da Natureza, 90",
+          "bairro": "Vila Verde",
+          "cidade": "Porto Alegre",
+          "estado": "RS",
+          "cep": "90000-000"
+        }
+      },
+      "localizacao": {
+        "armazem": "B2",
+        "prateleira": "P4",
+        "posição": "C1"
+      },
+      "dataDeEntrada": "2025-01-17T00:00:00Z",
+      "dataDeValidade": "2027-01-17T00:00:00Z"
+    },
+    {
+      "id": "P200047",
+      "nome": "Regador de Plástico",
+      "descricao": "Regador de plástico de 2 litros com bico ajustável.",
+      "categoria": "Jardinagem",
+      "preco": 15.0,
+      "estoque": 200,
+      "dimensoes": {
+        "largura": 20,
+        "altura": 25,
+        "profundidade": 10
+      },
+      "peso": 0.3,
+      "fornecedor": {
+        "nome": "HortoFácil",
+        "contato": {
+          "telefone": "+55 21 99876-5432",
+          "email": "contato@hortofacil.com.br"
+        },
+        "endereco": {
+          "logradouro": "Avenida Verde, 120",
+          "bairro": "Floresta",
+          "cidade": "Rio de Janeiro",
+          "estado": "RJ",
+          "cep": "21000-000"
+        }
+      },
+      "localizacao": {
+        "armazem": "C3",
+        "prateleira": "P2",
+        "posição": "B4"
+      },
+      "dataDeEntrada": "2025-01-18T00:00:00Z",
+      "dataDeValidade": "2027-01-18T00:00:00Z"
+    },
+    {
+      "id": "P200048",
+      "nome": "Adubo Orgânico",
+      "descricao": "Adubo orgânico de alta qualidade para fertilizar plantas e hortas.",
+      "categoria": "Jardinagem",
+      "preco": 35.0,
+      "estoque": 80,
+      "dimensoes": {
+        "largura": 15,
+        "altura": 30,
+        "profundidade": 15
+      },
+      "peso": 3.0,
+      "fornecedor": {
+        "nome": "AduboVerde",
+        "contato": {
+          "telefone": "+55 41 95321-6543",
+          "email": "contato@aduboverde.com.br"
+        },
+        "endereco": {
+          "logradouro": "Rua do Crescimento, 70",
+          "bairro": "Centro",
+          "cidade": "Curitiba",
+          "estado": "PR",
+          "cep": "80000-000"
+        }
+      },
+      "localizacao": {
+        "armazem": "D4",
+        "prateleira": "P3",
+        "posição": "A5"
+      },
+      "dataDeEntrada": "2025-01-20T00:00:00Z",
+      "dataDeValidade": "2027-01-20T00:00:00Z"
+    },
+    {
+      "id": "P200049",
+      "nome": "Corte de Grama",
+      "descricao": "Aparelho manual para cortar grama em jardins pequenos.",
+      "categoria": "Jardinagem",
+      "preco": 60.0,
+      "estoque": 50,
+      "dimensoes": {
+        "largura": 40,
+        "altura": 15,
+        "profundidade": 10
+      },
+      "peso": 1.2,
+      "fornecedor": {
+        "nome": "CortaVerde",
+        "contato": {
+          "telefone": "+55 34 94567-8910",
+          "email": "contato@cortaverde.com.br"
+        },
+        "endereco": {
+          "logradouro": "Rua da Colheita, 15",
+          "bairro": "Jardim Horizonte",
+          "cidade": "Uberlândia",
+          "estado": "MG",
+          "cep": "38400-000"
+        }
+      },
+      "localizacao": {
+        "armazem": "E5",
+        "prateleira": "P5",
+        "posição": "D1"
+      },
+      "dataDeEntrada": "2025-01-22T00:00:00Z",
+      "dataDeValidade": "2027-01-22T00:00:00Z"
+    },
+    {
+      "id": "P200050",
+      "nome": "Vasos de Cerâmica",
+      "descricao": "Vasos de cerâmica para cultivo de plantas em ambientes internos.",
+      "categoria": "Jardinagem",
+      "preco": 20.0,
+      "estoque": 180,
+      "dimensoes": {
+        "largura": 15,
+        "altura": 15,
+        "profundidade": 15
+      },
+      "peso": 0.8,
+      "fornecedor": {
+        "nome": "CerâmicaBella",
+        "contato": {
+          "telefone": "+55 62 99674-1234",
+          "email": "contato@ceramicabella.com.br"
+        },
+        "endereco": {
+          "logradouro": "Rua das Artes, 8",
+          "bairro": "Vila Alegria",
+          "cidade": "Goiânia",
+          "estado": "GO",
+          "cep": "74000-000"
+        }
+      },
+      "localizacao": {
+        "armazem": "F1",
+        "prateleira": "P2",
+        "posição": "C7"
+      },
+      "dataDeEntrada": "2025-01-25T00:00:00Z",
+      "dataDeValidade": "2027-01-25T00:00:00Z"
+    },
+    {
+      "id": "P200051",
+      "nome": "Enxada de Jardim",
+      "descricao": "Enxada pequena para jardinagem e manutenção de hortas.",
+      "categoria": "Jardinagem",
+      "preco": 45.0,
+      "estoque": 75,
+      "dimensoes": {
+        "largura": 30,
+        "altura": 10,
+        "profundidade": 5
+      },
+      "peso": 1.0,
+      "fornecedor": {
+        "nome": "FerragensVerdes",
+        "contato": {
+          "telefone": "+55 19 93654-3210",
+          "email": "contato@ferragensverdes.com.br"
+        },
+        "endereco": {
+          "logradouro": "Rua das Ferragens, 32",
+          "bairro": "Vila Jardim",
+          "cidade": "Campinas",
+          "estado": "SP",
+          "cep": "13000-000"
+        }
+      },
+      "localizacao": {
+        "armazem": "G2",
+        "prateleira": "P4",
+        "posição": "B6"
+      },
+      "dataDeEntrada": "2025-01-30T00:00:00Z",
+      "dataDeValidade": "2027-01-30T00:00:00Z"
+    },
+    {
+      "id": "P200052",
+      "nome": "Couve de Brócolis",
+      "descricao": "Planta de couve de brócolis para cultivo orgânico.",
+      "categoria": "Jardinagem",
+      "preco": 18.0,
+      "estoque": 100,
+      "dimensoes": {
+        "largura": 4,
+        "altura": 12,
+        "profundidade": 2
+      },
+      "peso": 0.1,
+      "fornecedor": {
+        "nome": "PlantasVerdes",
+        "contato": {
+          "telefone": "+55 61 93456-7890",
+          "email": "contato@plantasverdes.com.br"
+        },
+        "endereco": {
+          "logradouro": "Avenida Floresta, 88",
+          "bairro": "Cidade Verde",
+          "cidade": "Brasília",
+          "estado": "DF",
+          "cep": "70000-000"
+        }
+      },
+      "localizacao": {
+        "armazem": "H3",
+        "prateleira": "P5",
+        "posição": "A4"
+      },
+      "dataDeEntrada": "2025-02-02T00:00:00Z",
+      "dataDeValidade": "2027-02-02T00:00:00Z"
+    },
+    {
+      "id": "P200053",
+      "nome": "Tesoura de Podar",
+      "descricao": "Tesoura de podar com lâminas de aço inox para corte preciso.",
+      "categoria": "Jardinagem",
+      "preco": 38.0,
+      "estoque": 130,
+      "dimensoes": {
+        "largura": 20,
+        "altura": 5,
+        "profundidade": 2
+      },
+      "peso": 0.7,
+      "fornecedor": {
+        "nome": "FerramentasJardim",
+        "contato": {
+          "telefone": "+55 47 99321-1122",
+          "email": "contato@ferramentasjardim.com.br"
+        },
+        "endereco": {
+          "logradouro": "Rua da Serra, 15",
+          "bairro": "Vila Flor",
+          "cidade": "Joinville",
+          "estado": "SC",
+          "cep": "89200-000"
+        }
+      },
+      "localizacao": {
+        "armazem": "I2",
+        "prateleira": "P1",
+        "posição": "B8"
+      },
+      "dataDeEntrada": "2025-02-05T00:00:00Z",
+      "dataDeValidade": "2027-02-05T00:00:00Z"
+    },
+    {
+      "id": "P200054",
+      "nome": "Tenda de Jardinagem",
+      "descricao": "Tenda resistente para proteção contra o sol enquanto jardina.",
+      "categoria": "Jardinagem",
+      "preco": 100.0,
+      "estoque": 50,
+      "dimensoes": {
+        "largura": 200,
+        "altura": 250,
+        "profundidade": 200
+      },
+      "peso": 6.0,
+      "fornecedor": {
+        "nome": "TendasVerde",
+        "contato": {
+          "telefone": "+55 33 99876-4321",
+          "email": "contato@tendasverde.com.br"
+        },
+        "endereco": {
+          "logradouro": "Rua das Sombras, 21",
+          "bairro": "Jardim Azul",
+          "cidade": "Uberaba",
+          "estado": "MG",
+          "cep": "38000-000"
+        }
+      },
+      "localizacao": {
+        "armazem": "J3",
+        "prateleira": "P7",
+        "posição": "C9"
+      },
+      "dataDeEntrada": "2025-02-10T00:00:00Z",
+      "dataDeValidade": "2027-02-10T00:00:00Z"
+    },
+    {
+      "id": "P200055",
+      "nome": "Fertilizante Foliar",
+      "descricao": "Fertilizante de absorção foliar para plantas de jardim.",
+      "categoria": "Jardinagem",
+      "preco": 40.0,
+      "estoque": 90,
+      "dimensoes": {
+        "largura": 10,
+        "altura": 20,
+        "profundidade": 5
+      },
+      "peso": 1.2,
+      "fornecedor": {
+        "nome": "VerdeForte",
+        "contato": {
+          "telefone": "+55 19 98877-6543",
+          "email": "contato@verdeforte.com.br"
+        },
+        "endereco": {
+          "logradouro": "Rua do Jardim, 90",
+          "bairro": "Vila Verde",
+          "cidade": "Sorocaba",
+          "estado": "SP",
+          "cep": "18000-000"
+        }
+      },
+      "localizacao": {
+        "armazem": "K1",
+        "prateleira": "P6",
+        "posição": "B9"
+      },
+      "dataDeEntrada": "2025-02-12T00:00:00Z",
+      "dataDeValidade": "2027-02-12T00:00:00Z"
+    }
+  ]
+}
