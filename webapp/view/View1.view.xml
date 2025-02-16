@@ -3,44 +3,78 @@
     xmlns:t="sap.ui.table"
     xmlns="sap.m">
     <Page id="page" title="{i18n>title}">
-    <Button text="Hello Wolrld" press="onPress"/>
+    <!-- <Button text="Hello Wolrld" press="onPress"/> -->
 
     <VBox class="sapUiTinyMargin">
-        <Label text="Id do Cliente"/>
+        <Label text="Id do Produto"/>
         <Input />
     </VBox>
 
             <!-- rows="{/OVCabSet}" -->
-     <t:Table id="table1"
+    <t:Table id="table1"
+            rows="{produtosModel>/produtos}"
             visibleRowCount="10"
             threshold="10"
             class="sapUiTinyMargin"
             selectionMode="MultiToggle">
-            <t:toolbar>
-                <OverflowToolbar>
-                    <Title id="title" text="Ordens"></Title>
-                </OverflowToolbar>
-            </t:toolbar>
-            <t:columns>
-                <t:Column width="4rem" sortProperty="OrdemId">
-                    <Label text="OrdemId" />
-                    <t:template>
-                        <Text text="{OrdemId}" wrapping="false" />
-                    </t:template>
-                </t:Column>
-                <t:Column width="10rem" sortProperty="ClienteId" filterProperty="ClienteId" autoResizable="true">
-                    <Label text="Id do cliente" />
-                    <t:template>
-                        <Text text="{ClienteId}" wrapping="false" />
-                    </t:template>
-                </t:Column>
-                <t:Column width="10rem" sortProperty="TotalItens" filterProperty="TotalItens" autoResizable="true">
-                    <Label text="Total Itens" />
-                    <t:template>
-                        <Text text="{TotalItens}" wrapping="false" />
-                    </t:template>
-                </t:Column>
-            </t:columns>
-        </t:Table>
+        <t:toolbar>
+            <OverflowToolbar>
+                <Title id="title" text="Produtos Disponíveis"></Title>
+            </OverflowToolbar>
+        </t:toolbar>
+        <t:columns>
+            <!-- ID do Produto -->
+            <t:Column width="6rem" sortProperty="id" filterProperty="id" autoResizable="true">
+                <Label text="ID" />
+                <t:template>
+                    <Text text="{produtosModel>id}" wrapping="false" />
+                </t:template>
+            </t:Column>
+
+            <!-- Nome do Produto -->
+            <t:Column width="12rem" sortProperty="nome" filterProperty="nome" autoResizable="true">
+                <Label text="Nome" />
+                <t:template>
+                    <Text text="{produtosModel>nome}" wrapping="false" />
+                </t:template>
+            </t:Column>
+
+            <!-- Categoria -->
+            <t:Column width="8rem" sortProperty="categoria" filterProperty="categoria" autoResizable="true">
+                <Label text="Categoria" />
+                <t:template>
+                    <Text text="{produtosModel>categoria}" wrapping="false" />
+                </t:template>
+            </t:Column>
+
+            <!-- Preço -->
+            <t:Column width="8rem" sortProperty="preco" filterProperty="preco" autoResizable="true">
+                <Label text="Preço" />
+                <t:template>
+                    <Text text="{produtosModel>preco}" wrapping="false" />
+                </t:template>
+            </t:Column>
+
+            <!-- Estoque -->
+            <t:Column width="6rem" sortProperty="estoque" filterProperty="estoque" autoResizable="true">
+                <Label text="Estoque" />
+                <t:template>
+                    <Text text="{produtosModel>estoque}" wrapping="false" />
+                </t:template>
+            </t:Column>
+
+            <!-- Fornecedor -->
+            <t:Column width="15rem" sortProperty="fornecedor/nome" filterProperty="fornecedor/nome" autoResizable="true">
+                <Label text="Fornecedor" />
+                <t:template>
+                    <Text text="{produtosModel>fornecedor/nome}" wrapping="false" />
+                </t:template>
+            </t:Column>
+        </t:columns>
+    </t:Table>
+
+   
+   
+   
     </Page>
 </mvc:View>
