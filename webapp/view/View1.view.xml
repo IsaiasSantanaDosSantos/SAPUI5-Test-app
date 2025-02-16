@@ -5,9 +5,12 @@
     <Page id="page" title="{i18n>title}">
     <!-- <Button text="Hello Wolrld" press="onPress"/> -->
 
-    <VBox class="sapUiTinyMargin">
+    <VBox class="sapUiTinyMargin"> 
         <Label text="Id do Produto"/>
-        <Input />
+        <HBox>
+            <Input id="productInput" width="80%"/>
+            <Button text="Buscar" press=".onSearchById"/>
+        </HBox>
     </VBox>
 
             <!-- rows="{/OVCabSet}" -->
@@ -16,7 +19,8 @@
             visibleRowCount="10"
             threshold="10"
             class="sapUiTinyMargin"
-            selectionMode="MultiToggle">
+            selectionMode="MultiToggle"
+            rowSelectionChange=".onItemPress">
         <t:toolbar>
             <OverflowToolbar>
                 <Title id="title" text="Produtos Disponíveis"></Title>

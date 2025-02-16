@@ -1,0 +1,29 @@
+<mvc:View
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m"
+    controllerName="webapp.controller.ProductDetail">
+    
+    <Page title="Detalhes do Produto">
+        <content>
+            <VBox class="sapUiTinyMargin">
+                <Label text="ID" />
+                <Text text="{produtosModel>id}" />
+
+                <Label text="Nome" />
+                <Text text="{produtosModel>nome}" />
+
+                <Label text="Categoria" />
+                <Text text="{produtosModel>categoria}" />
+
+                <Label text="Preço" />
+                <Text text="{produtosModel>preco}" />
+
+                <Label text="Estoque" />
+                <Text text="{produtosModel>estoque}" />
+
+                <Label text="Fornecedor" />
+                <Text text="{produtosModel>fornecedor/nome}" />
+            </VBox>
+        </content>
+    </Page>
+</mvc:View>
